@@ -1,0 +1,89 @@
+/* Установка стилей для основного контейнера страницы */
+body {
+    background-repeat: no-repeat; /* Не повторять фон */
+    background-size: cover; /* Заполнение всего экрана */
+    height: 100vh; /* Высота всего экрана */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    display: flex; /* Использовать flexbox */
+    flex-direction: column; /* Отображение элементов в столбец */
+    justify-content: center; /* Выравнивание контента по центру по вертикали */
+    align-items: center; /* Выравнивание контента по центру по горизонтали */
+    font-family: "Arial", sans-serif; /* Установка шрифта */
+    background-size: 1550px 750px;
+}
+
+
+/* Стили для кнопки с идентификатором restartButton */
+#restartButton {
+    background-color: #1a936f; /* цвет кнопки */
+    color: white; /* Белый цвет текста кнопки */
+    font-size: 16px; /* Увеличение размера шрифта кнопки */
+    font-weight: bold; /* Жирный текст кнопки */
+    border-radius: 10px; /* Закругленные края кнопки */
+    padding: 10px 20px; /* Поля вокруг текста кнопки */
+    margin-top: 10px; /* Отступ сверху */
+    display: none; /* Кнопка изначально скрыта */
+}
+
+/* Стили для блока с идентификатором question */
+#question {
+    display: flex; /* Использовать flexbox */
+    align-items: center; /* Выравнивание контента по центру по вертикали */
+    justify-content: center; /* Выравнивание контента по центру по горизонтали */
+    flex-direction: column; /* Отображение элементов в столбец */
+    margin-bottom: 20px; /* Внешний отступ снизу */
+    font-size: 250%; /* Увеличение размера текста в 3 раза */
+    font-weight: bold; /* Жирный текст */
+    color: white; /* Белый цвет текста */
+}
+
+/* Стили для блока с классом rectangle */
+.rectangle {
+    background-color: #1a936f; /* Зеленый цвет фона */
+    border-radius: 20px; /* Увеличение радиуса скругления углов */
+    padding: 20px; /* Внутренние отступы вокруг блока */
+    width: fit-content; /* Ширина блока под контент */
+}
+
+/* Стили для текста с классом text */
+.text {
+    color: white; /* Белый цвет текста */
+    font-weight: bold; /* Жирный текст */
+    font-size: 100%; /* Увеличение размера шрифта текста */
+}
+
+/* Стили для блока с идентификатором options */
+#options {
+    display: flex; /* Использовать flexbox */
+    align-items: center; /* Выравнивание контента по центру по вертикали */
+    justify-content: center; /* Выравнивание контента по центру по горизонтали */
+    flex-direction: column; /* Отображение элементов в столбец */
+    margin-bottom: 20px; /* Внешний отступ снизу */
+}
+
+/* Стили для элементов с классом option (кнопок) */
+.option {
+    margin: 10px; /* Внешний отступ */
+    background-color: #1a936f; /* Зеленый цвет фона кнопки */
+    color: white; /* Белый цвет текста кнопки */
+    font-weight: bold; /* Жирный текст */
+    font-size: 100%; /* Увеличение размера шрифта текста */
+    width: 180px; /* Ширина кнопки */
+    height: 70px; /* Высота кнопки */
+    border-radius: 20px; /* Скругление углов кнопки */
+    text-align: center; /* Выравнивание текста по центру */
+    display: flex; /* Использовать flexbox */
+    justify-content: center; /* Выравнивание контента по центру по горизонтали */
+    align-items: center; /* Выравнивание контента по центру по вертикали */
+}
+
+/* Стили для блока с идентификатором result */
+#result {
+    text-align: center; /* Выравнивание текста по центру */
+    margin: 20px; /* Внешний отступ */
+    color: white; /* Белый цвет текста для результата */
+    font-size: 150%; /* Увеличение размера шрифта текста */
+    font-weight: bold; /* Жирный текст */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Обводка текста */
+}
